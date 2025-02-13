@@ -1,10 +1,11 @@
-num = int (input ("Enter a number: "))
+num = int (input ("Enter the number of terms: "))
 
 num1 = 0
 num2 = 1
 sum = 0
 count = 1
 
+print ("Fibonacci series: ", end="")
 while (count <= num ):
     print (sum, end=" ")
     count += 1 
