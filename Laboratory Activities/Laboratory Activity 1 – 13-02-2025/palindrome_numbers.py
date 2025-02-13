@@ -5,6 +5,6 @@ for digit in num:
     reverse = digit + reverse
 
 if num == reverse:
-    print ("palindrome")
+    print ("Palindrome")
 else:
-    print ("not palindrome")
+    print ("Not a palindrome")
